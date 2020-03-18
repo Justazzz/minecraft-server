@@ -46,7 +46,7 @@ lag-spike-helper:
 # -- 'transfer-limit' How many transfers per check interval until the hopper should be disabled
 # -- 'check-interval' In seconds, on what interval should the transfer limit be reset
 hopper-limiter:
-  enabled: false
+  enabled: true
   transfer-limit: 5
   check-interval: 1
 
@@ -148,6 +148,7 @@ area-filter:
     - Villager
     - Horse
     - ARMOR_STAND
+    - Boat
 
 #Should clearlag reset the config, or attempt to update your config on updates
 # -- 'force-update' is whether or not clearlag will reset your config with a newer version
@@ -176,10 +177,10 @@ chunk-limiter:
 # -- Lower it is, the better your entity tick will be and the more CPU cycles you'll save
 # -- If it's too high, expect bugs / lots of lag
 mob-range:
-  enabled: false
-  zombie: 30
-  skeleton: 30
-  creeper: 20
+  enabled: true
+  zombie: 20
+  skeleton: 20
+  creeper: 15
 
 #How long should items/Mobs be left on the ground
 # -- live-time's go by ticks (20 ticks a second)
@@ -196,9 +197,9 @@ live-time:
 #This option disallows the placement of too many tnt-minecarts
 # -- 'radius' is the radius clearlag will check for TNT-Minecarts
 tnt-minecart:
-  enabled: false
+  enabled: true
   max: 2
-  radius: 6
+  radius: 5
 
 #This option reduces global dispenser fire rate
 # -- 'time' is in milliseconds
@@ -293,8 +294,8 @@ kill-mobs:
 # -- 'remove-mobs-on-chunk-unload' is whether or not Clearlag should remove
 # --  the mobs spawned by the mobspawner upon chunk unload (Highly Recommended)
 mobspawner:
-  enabled: false
-  max-spawn: 4
+  enabled: true
+  max-spawn: 5
   remove-mobs-on-chunk-unload: true
 
 #Dont use if you have CB++ or Spigot!

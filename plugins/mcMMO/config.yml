@@ -15,9 +15,9 @@ General:
         Enabled: true
     Locale: en_US
     AprilFoolsEvent: true
-    MOTD_Enabled: true
-    EventBroadcasts: true
-    EventInfoOnPlayerJoin: true
+    MOTD_Enabled: false
+    EventBroadcasts: false
+    EventInfoOnPlayerJoin: false
     AdminNotifications: true
     # Send a message to the player when his profile was successfully loaded
     Show_Profile_Loaded: false
@@ -41,7 +41,7 @@ General:
     # This should fix blocks being broken client side, but not server-side.
     # Enable to refresh the chunks around a player at the end of Super Breaker,
     # Giga Drill Breaker, and Berserk. Resource intensive for larger servers.
-    Refresh_Chunks: false
+    Refresh_Chunks: true
 
 #
 #  Settings for the mcMMO scoreboards
