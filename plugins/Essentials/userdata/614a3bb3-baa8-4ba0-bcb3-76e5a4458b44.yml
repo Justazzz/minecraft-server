@@ -1,0 +1,21 @@
+lastAccountName: ippyson
+timestamps:
+  login: 1584545133321
+  logout: 1584545147363
+  lastteleport: 1584539865536
+ipAddress: 98.128.186.73
+logoutlocation:
+  world: world
+  x: -200.11031341973523
+  y: 83.0
+  z: -139.4961502838221
+  yaw: -83.47005
+  pitch: 14.253665
+afk: false
+lastlocation:
+  world: world
+  x: -176.0
+  y: 63.0
+  z: -243.0
+  yaw: 0.0
+  pitch: 0.0

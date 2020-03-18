@@ -1,0 +1,19 @@
+lastAccountName: Kundvagn
+timestamps:
+  login: 1584543476143
+  logout: 1584543467841
+ipAddress: 109.124.170.112
+lastlocation:
+  world: world
+  x: -170.5
+  y: 64.0
+  z: -238.5
+  yaw: 0.9852184
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -6794.780035100417
+  y: 85.0
+  z: -1297.8183505255465
+  yaw: -318.34964
+  pitch: 23.18982

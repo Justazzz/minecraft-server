@@ -8,9 +8,5 @@ whitelist.json
 world
 world_nether
 world_the_end
-ClearLag
-Essentials
-EssentialsXMPP
-GriefPreventionData
-mcMMO
-bStats
+PlayerData
+ClaimData
